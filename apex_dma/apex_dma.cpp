@@ -2279,7 +2279,7 @@ int main(int argc, char *argv[])
             }
 
             std::this_thread::sleep_for(std::chrono::seconds(2));
-            printf("Searching for apex process...\n");
+            printf("Searching for apex process test...\n");
 
             apex_mem.open_proc(ap_proc);
             if (apex_mem.get_proc_status() != process_status::FOUND_READY)
